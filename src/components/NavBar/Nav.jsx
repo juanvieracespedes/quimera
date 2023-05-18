@@ -10,17 +10,17 @@ const NavBar = () => {
     <ul className="nav" style={navBarStyle}>
       <li className="nav-item">
         <a className="nav-link active" aria-current="page" href="#">
-          Active
+          Inicio
         </a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#">
-          Link
+          Productos
         </a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#">
-          Link
+          Contacto
         </a>
       </li>
       <li className="nav-item">
@@ -30,11 +30,8 @@ const NavBar = () => {
           tabIndex="-1"
           aria-disabled="true"
         >
-          Disabled
+          <ShoppingCartTwoToneIcon fontSize="large" />
         </a>
-      </li>
-      <li>
-        <a href=""><ShoppingCartTwoToneIcon /></a>
       </li>
     </ul>
   );
