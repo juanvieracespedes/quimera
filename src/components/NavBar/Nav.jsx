@@ -34,7 +34,7 @@ const NavBar = () => {
         </a>
       </li>
       <li>
-        <ShoppingCartTwoToneIcon />
+        <a href=""><ShoppingCartTwoToneIcon /></a>
       </li>
     </ul>
   );
